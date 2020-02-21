@@ -1,0 +1,7 @@
+mwlResizable{
+    box-sizing: border-box;
+}
+.my-box{
+    padding: 20px;
+    border: solid 1px red;
+}

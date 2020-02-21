@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0 !important; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.sub-menu{
+    display: flex;
+    height: calc(100vh);
+}
+.wrapper{
+    background: #1E1E1E;
+    width: 100%;
+    color: #fff;
+}
+.content{
+    padding: 10px;
+}
+.bread-cramp{
+    background: #2D2D2D;
+    padding:2px 10px;
+}
+.bread-cramp span{
+    font-size: 14px;
+}
+mat-tree{
+    background-color: #252526 !important;
+    min-width:250px;
+}
+mat-tree-node{
+    background-color: #252526 !important;
+    min-height: 30px !important;
+}
+mat-tree-node button{
+    height: 30px !important;
+    width: 30px !important;
+    line-height: 30px !important;
+}
+mat-tree-node:hover{
+    background: #37373D !important;
+}

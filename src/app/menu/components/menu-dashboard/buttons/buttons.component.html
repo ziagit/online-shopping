@@ -1,0 +1,13 @@
+<div class="">
+    <button mat-raised-button color="Accent">Button</button>
+</div>
+
+<div
+class="my-box"
+mwlResizable
+[enableGhostResize]="true"
+[resizeEdges]="{bottom:true, right:true, top:true, left:true}"
+(resizeEnd)="onResizeEnd($event)"
+>
+    <h1>Resize it</h1>
+</div>
